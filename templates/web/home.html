@@ -1,0 +1,66 @@
+{% extends 'web/base.html' %}
+{% load static %}
+{% block content %}
+    <div id="inSlider" class="carousel slide" data-ride="carousel" >
+        <ol class="carousel-indicators">
+            <li data-target="#inSlider" data-slide-to="0" class="active"></li>
+            <li data-target="#inSlider" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Journal for Service Quality Enhancement (JSQE)<br/> </h1>
+                    </div>
+                    <div class="carousel-image wow zoomIn">
+{#                        <img src="../../static/img/landing/laptop.png" alt="laptop"/>#}
+                    </div>
+                </div>
+                <!-- Set background for slide in css -->
+                <div class="header-back one"></div>
+
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="carousel-caption blank">
+                        <h1>Journal for Service Quality Enhancement (JSQE)<br/> </h1>
+                    </div>
+                </div>
+                <!-- Set background for slide in css -->
+                <div class="header-back two"></div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#inSlider" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#inSlider" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <section id="features" class="container services" >
+        <div class="row">
+            <p style="font-size: 18px;color: #1b1e21; text-align: justify">Journal for Service Quality Enhancement (JSQE) is open access double-blinded peer-reviewed journal that provides regular publication of articles in areas of service quality management. It is an official publication of the Center for Service Quality Enhancement (CSQE). Center for Service Quality Enhancement (CSQE) is the country’s leading independent, end-to-end service quality enhancement platform. CSQE’s technology independence, global talent, and extensive partner network help clients harness the power of service innovation to thrive on change and guide their quality enhancement journeys. JSQE is an initiative by some of the leading academicians and management consultants of the country. JSQE’s editorial board is comprised of scholars and academicians from the world’s leading institutions like; Texas A&M University, Prairie View University, Portland State University, Central Queensland University, Indian Institute of Management (IIM), University of Western Australia, Jiangxi Science & Technical University, Hadhramout University, and others. From Bangladesh, JSQE has editorial board members from BRAC University, North South University, BGMEA University, United International University, Jagannath University, American International University Bangladesh, and the Asian University of Bangladesh. At JSQE we strongly believe that in South Asia, ensuring quality in service delivery can positively affect the growth of our businesses for the service industry. JSQE is an international refereed journal with the vision to become present in both e-format as well as printed versions. JSQE covers the comprehensive range of areas including, but not limited to, service quality, marketing, branding, management, finance, accounting, economics, and other areas of business and economics, as all these functional domains of knowledge directly or indirectly contributes toward the enhancement of service quality within the organization.</p>
+            <br>
+            <div>
+                <h1>Why publish with JSQE?</h1>
+                <ol style="font-size: 18px;color: #1b1e21; text-align: justify">
+                    <li>Citation benefits: Due to open access journal your article is more visible to the readers, authors, and potential researchers.</li>
+                    <li>Double blinded peer review: After submission, every paper will be reviewed by subject experts to ensure the quality of the paper.</li>
+                    <li>Fast track review process: Authors can get the peer review report within 15-25 days.</li>
+                    <li>Highly qualified and experienced reviewers pool: Pool of experts comprised of the country’s leading subject matter experts from leading academic institutions.</li>
+                    <li>Publication cost: Minimum.</li>
+                </ol>
+
+            </div>
+            <div>
+            </div>
+        </div>
+    </section>
+
+
+{% endblock %}
+
+
